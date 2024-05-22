@@ -1,0 +1,28 @@
+{
+  "name": "camellia-ui",
+  "version": "0.0.716",
+  "description": "A UI library for VueJS",
+  "type": "module",
+  "keywords": [
+    "UI"
+  ],
+  "author": "gongzemin",
+  "license": "MIT",
+  "main": "dist/camellia-ui.es.js",
+  "module": "dist/camellia-ui.umd.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
